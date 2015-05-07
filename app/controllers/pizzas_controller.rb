@@ -3,7 +3,11 @@ class PizzasController < ApplicationController
 
   # GET /pizzas
   # GET /pizzas.json
-  def index
+	def home
+		
+	end
+	
+	def index
     @pizzas = Pizza.all
   end
 
